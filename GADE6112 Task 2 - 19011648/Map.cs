@@ -123,7 +123,7 @@ namespace GADE6112_Task_2___19011648
                 {
                     ResourceBuilding rb = (ResourceBuilding)b;
                     myButt.Size = new Size(30, 30);
-                    myButt.Location = new Point(rb.PosX * 20, rb.PosY * 20);
+                    myButt.Location = new Point(rb.PosX * 30, rb.PosY * 30);
                     myButt.Text = rb.Symbol;
                     myButt.ForeColor = Color.Gray;
                     
@@ -132,7 +132,7 @@ namespace GADE6112_Task_2___19011648
                 {
                     FactoryBuilding fb = (FactoryBuilding)b;
                     myButt.Size = new Size(30, 30);
-                    myButt.Location = new Point(fb.PosX * 20, fb.PosY * 20);
+                    myButt.Location = new Point(fb.PosX * 30, fb.PosY * 30);
                     myButt.Text = fb.Symbol;
                     if (fb.Faction == 0)
                     {
